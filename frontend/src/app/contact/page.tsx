@@ -119,6 +119,7 @@ export default function ContactPage() {
                 <input
                   type="text"
                   id="name"
+                  name="name"
                   value={formData.name}
                   onChange={handleChange}
                   className={`w-full px-4 py-2 rounded-md border ${
@@ -138,6 +139,7 @@ export default function ContactPage() {
                 <input
                   type="email"
                   id="email"
+                  name="email"
                   value={formData.email}
                   onChange={handleChange}
                   className={`w-full px-4 py-2 rounded-md border ${
@@ -157,6 +159,7 @@ export default function ContactPage() {
                 <input
                   type="text"
                   id="subject"
+                  name="subject"
                   value={formData.subject}
                   onChange={handleChange}
                   className={`w-full px-4 py-2 rounded-md border ${
@@ -175,6 +178,7 @@ export default function ContactPage() {
                 </label>
                 <textarea
                   id="description"
+                  name="description"
                   value={formData.description}
                   onChange={handleChange}
                   rows={4}
