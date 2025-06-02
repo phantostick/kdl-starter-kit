@@ -95,7 +95,7 @@ function Footer() {
               <h3 className="text-lg font-semibold mb-4 uppercase">Quick Links</h3>
               <ul className="space-y-2 text-gray-300 text-sm mb-6">
                 <li>
-                  <Link href="/open-source" className="hover:text-blue-400 transition-colors">
+                  <Link href="https://github.com/kalamdreamlabs/kdl-starter-kit" className="hover:text-blue-400 transition-colors">
                     Open Source
                   </Link>
                 </li>
