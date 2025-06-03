@@ -32,7 +32,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Routes
 app.get("/", (req, res) => {
-    res.send("Welcome to the KDL Backend API cdfgh");
+    res.send("Welcome to the KDL Backend API");
 });
 
 app.use("/api/cms", cmsRoutes);
